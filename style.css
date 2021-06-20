@@ -63,10 +63,13 @@ color: #ff7700;
 vertical-align: middle;
     margin-top: 100px;
    font-family: 'Cinzel Decorative', cursive;
+    color: crimson;
+    font-weight: 500;
     font-size: 20px;
 }
 .environment{
     margin-bottom: 100px;
+   
 }
 
 .header_entrepreneur
@@ -119,6 +122,7 @@ vertical-align: middle;
 }
 #contact{
     margin-top: 30px;
+   
 }
 #me{
     font-family: 'Dancing Script', cursive;
@@ -129,4 +133,27 @@ vertical-align: middle;
 #disha{
    font-size: 40px;
     color: crimson;  
+     text-shadow: 3px 3px lightpink;
 }
+#disha:hover{
+    font-size: 50px;
+    text-decoration: underline;
+}
+#welcome{
+    font-family: 'Dancing Script', cursive; 
+     font-size: 50px;
+    color: firebrick;
+    font-weight: 600;
+}
+.img_disha:hover{
+     transform: scale(1.5);
+}
+
+.img_disha {
+transition: transform 1s;
+    width: 300px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
