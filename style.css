@@ -62,7 +62,7 @@ color: #ff7700;
 {
 vertical-align: middle;
     margin-top: 100px;
-    font-family: cursive;
+   font-family: 'Cinzel Decorative', cursive;
     font-size: 20px;
 }
 .environment{
@@ -103,11 +103,12 @@ vertical-align: middle;
 }
 #contact iframe
 {
-    width: 80%;
+    width: 100%;
 }
 .contact_1 h3
 {
     display: inline;
+   
 }
 .contact_1 a
 {
@@ -118,4 +119,14 @@ vertical-align: middle;
 }
 #contact{
     margin-top: 30px;
+}
+#me{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: firebrick;
+    font-weight: 400;
+}
+#disha{
+   font-size: 40px;
+    color: crimson;  
 }
