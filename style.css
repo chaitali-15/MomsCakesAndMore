@@ -157,3 +157,7 @@ html {
     scroll-behavior: smooth;
 }
 
+#logo{
+    width: 50px;
+    display: inline;
+}
